@@ -1,0 +1,25 @@
+#+TITLE: Testing OLPC
+#+AUTHOR: Michael Zeller
+#+EMAIL: michael.zeller@uci.edu
+
+* Overview
+
+Just some simple instructions for running the emulator for the OLPC
+project on Debian.
+
+See the wiki at
+http://wiki.laptop.org/go/Emulating_the_XO/Quick_Start/ for other OSes
+and distributions, although I've tried to make it even easier, and
+give you a little folder to put stuff in and give you the script for
+Debian.
+
+* Installing and running the emulator
+
+Simply =git clone= this repository and run the script with the
+following line:
+
+#+BEGIN_SRC sh
+cd ~ && git clone git://github.com/zeller/olpc.git && cd olpc && ./qemu-olpc-debian.sh
+#+END_SRC
+
+This seems to require about 300MB of free space.

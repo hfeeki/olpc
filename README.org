@@ -22,4 +22,7 @@ following line:
 cd ~ && git clone git://github.com/zeller/olpc.git && cd olpc && ./qemu-olpc-debian.sh
 #+END_SRC
 
-This seems to require about 300MB of free space.
+This seems to require about 300MB of free space. 
+
+*Note*: If you don't already have =git=, then you should get it first
+using =sudo apt-get install git-core=.
